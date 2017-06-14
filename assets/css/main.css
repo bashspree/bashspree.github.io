@@ -2586,6 +2586,11 @@
 
 		@media screen and (max-width: 980px) {
 
+			.modal-content {
+    			
+    			width: 90%;
+			}
+
 			.spotlight {
 				display: block;
 			}
@@ -2611,6 +2616,11 @@
 
 			.spotlight .content {
 				padding: 3em 2em 1em 2em ;
+			}
+
+			.modal-content {
+    			
+    			width: 90%;
 			}
 
 		}
@@ -3402,6 +3412,7 @@
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+		background-color: #8D99AE;
 	}
 
 		#banner h2 {
@@ -3525,6 +3536,7 @@
 			left: 0;
 			top: 0;
 			opacity: 0;
+
 		}
 
 		@media screen and (max-width: 736px) {
